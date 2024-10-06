@@ -9,7 +9,7 @@ const ProposalsList = () => {
     if (connected) {
       fetchProposals();
     }
-  }, [connected]);
+  }, [connected, fetchProposals]);
 
   return (
     <div className="proposals-list">
